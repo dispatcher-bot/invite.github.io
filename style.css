@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Barlow);
 
+ @media only screen and (max-width: 600px) {
+  .panel__main .panel__main-side {
+    background: #2C2F33;
+    height: 100vh;
+    width: 95px; 
+}
+  .panel__side {
+  height: 100vh;
+  width: 5px; 
+} 
+  }
+
 .anim-outer {
   position: relative;
   display: flex;
@@ -84,8 +96,10 @@ section {
 
 .panel__side {
   height: 100vh;
-  width: 75px; }
-  .panel__side .channel {
+  width: 75px; 
+}
+
+.panel__side .channel {
     transition: 0.75s;
     color: #FFFFFF;
     border-radius: 50px;
@@ -93,15 +107,19 @@ section {
     height: 60px;
     margin: 7.5px;
     text-align: center;
-    overflow: hidden; }
+    overflow: hidden; 
+}
     .panel__side .channel a {
-      color: #FFFFFF; }
+      color: #FFFFFF; 
+}
     .panel__side .channel i {
       padding: 11px 12.5px;
-      font-size: 35px; }
+      font-size: 35px; 
+}
     .panel__side .channel:hover {
       transition: 0.75s;
-      border-radius: 20px; }
+      border-radius: 20px; 
+}
 
 .panel__main {
   background-color: #2C2F33;
@@ -109,32 +127,46 @@ section {
   flex: 1;
   border-radius: 10px 0px 0px 0px;
   display: flex;
-  overflow: hidden; }
+  overflow: hidden; 
+}
+
   .panel__main .panel__main-side {
     background: #2C2F33;
     height: 100vh;
-    width: 240px; }
-    .panel__main .panel__main-side .list__links {
-      padding: 7.5px; }
-      .panel__main .panel__main-side .list__links li {
+    width: 240px; 
+}
+
+.panel__main .panel__main-side .list__links {
+      padding: 7.5px; 
+}
+
+.panel__main .panel__main-side .list__links li {
         display: block;
         border-radius: 5px;
         margin: 5px 1px;
-        padding: 10px 15px; }
-        .panel__main .panel__main-side .list__links li:hover {
-          background: #34373C; }
-      .panel__main .panel__main-side .list__links .active {
-        background: #393C43; }
+        padding: 10px 15px; 
+}
+
+.panel__main .panel__main-side .list__links li:hover {
+          background: #34373C; 
+}
+
+.panel__main .panel__main-side .list__links .active {
+        background: #393C43; 
+}
       .panel__main .panel__main-side .list__links a {
         color: #99AAB5;
-        text-decoration: none; }
-  .panel__main .panel__main-content {
+        text-decoration: none; 
+}
+
+.panel__main .panel__main-content {
     background: #393C43;
     color: #99AAB5;
     flex: 1;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: scroll; }
+    overflow-y: scroll; 
+}
 
 .twitter {
   background: #1DA1F2; }
