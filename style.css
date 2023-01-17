@@ -192,7 +192,8 @@ div9 {
 b1 {
   font-family: 'Inconsolata', Consolas, monospace;
   font-size: 4em;
-  color: #d7b94c; }
+  color: #f6d82c; 
+}
 
 b2 {
   font-family: 'Inconsolata', Consolas, monospace;
@@ -208,7 +209,7 @@ b2 {
     right: 0;
     width: 100%;
     color: white;
-    background: #1d1f20;
+    background: #99AAB5;
     animation: typing 4s steps(12) forwards, caret 1s infinite; }
 
 @keyframes typing {
@@ -225,7 +226,7 @@ b2 {
     right: 0;
     width: 100%;
     color: white;
-    background: #1d1f20;
+    background: #99AAB5;
     animation: typing 8s steps(14) forwards, caret 1s infinite; }
 
 @keyframes typingbis {
