@@ -193,6 +193,7 @@ b1 {
   font-family: 'Inconsolata', Consolas, monospace;
   font-size: 4em;
   color: #f6d82c; 
+  text-shadow: 0 0 5px #f6d82c, 0 0 10px #f6d82c, 0 0 15px #f6d82c;
 }
 
 b2 {
