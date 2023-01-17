@@ -217,7 +217,7 @@ b2 {
     width: 100%;
     color: white;
     background: #393c43;
-    animation: typing 4s steps(12) forwards, caret 1s infinite; }
+    animation: typing 4s steps(14) forwards, caret 1s infinite; }
 
 @keyframes typing {
   to {
