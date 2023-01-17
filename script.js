@@ -15,6 +15,4 @@ function setActiveLink() {
 
 setActiveLink();
 
-if (window.screen.width < 600) {
-  window.location.replace("mobile.html");
-}
+
