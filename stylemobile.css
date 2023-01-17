@@ -173,32 +173,39 @@ section {
   background-image: linear-gradient(145deg, #EF32D9, #FFD200); }
 
 .orange {
-  background-image: linear-gradient(145deg, #F7971E, #FFD200); }
+  background-image: linear-gradient(145deg, #F7971E, #FFD200); 
+}
+
 body {
-  background: #1d1f20; }
+  background: #1d1f20; 
+}
 
 div8 {
   display: inline;
   align-items: center;
-  justify-content: center;
+  justify-content
+  : center;
   height: 100vh; }
 
 div9 {
   display: inline;
   align-items: center;
   justify-content: center;
-  height: 100vh; }
+  height: 100vh; 
+}
 
 b1 {
   font-family: 'Inconsolata', Consolas, monospace;
-  font-size: 4em;
-  color: #d7b94c; }
+  font-size: 1.99em;
+  color: #f6d82c; 
+}
 
 b2 {
   font-family: 'Inconsolata', Consolas, monospace;
-  font-size: 2em;
+  font-size: 1.2em;
   color: Grey;
-  height: 240px; }
+  height: 240px; 
+}
 
 .typing {
   position: relative; }
