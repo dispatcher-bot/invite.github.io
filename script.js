@@ -16,5 +16,5 @@ function setActiveLink() {
 setActiveLink();
 
 if (window.screen.width < 600) {
-  window.location.replace("https://l-a-roleplay.github.io/invite.github.io/");
+  window.location.replace("mobile.html");
 }
