@@ -204,27 +204,11 @@ b1 {
 b2 {
   font-family: 'Inconsolata', Consolas, monospace;
   font-size: 1.2em;
-  color: Grey;
+  color: #99AAB5;
   height: 240px; 
 }
 
-.typing {
-  position: relative; }
-  .typing::after {
-    content: "|";
-    position: absolute;
-    right: 0;
-    width: 100%;
-    color: white;
-    background: #393c43;
-    animation: typing 4s steps(14) forwards, caret 1s infinite; }
 
-@keyframes typing {
-  to {
-    width: 0; } }
-@keyframes caret {
-  50% {
-    color: transparent; } }
 .typingbis {
   position: relative; }
   .typingbis::after {
