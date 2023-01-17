@@ -61,8 +61,9 @@ a {
 section {
   min-height: 10vh;
   max-width: 758px;
-  padding: 15px 25px;
-  margin: auto; }
+  padding: 1px 25px;
+  margin: auto; 
+}
 
 .card {
   border-radius: 15px;
